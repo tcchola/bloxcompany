@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.textBox{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.textBox h1{
+    font-size: 50pt;
+    letter-spacing: 5px;
+}
+.textBox p{
+    margin: 10px 0 40px;
+    font-size: 15pt;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.learnMoreBTN{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.learnMoreBTN:hover{
+    border: 1px solid #fff;
+    background-color: #54acdd;
+    transition: 0.3s;
+}
+.services{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.services h1{
+    font-size: 50pt;
+    font-weight: 700;
+}
+.services p{
+    font-size: 15pt;
+    color: #000;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.services-col{
+    flex-basis: 30%;
+    background-color: #fff3f3;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.services h3{
+    text-align: center;
+    font-weight: 700;
+    margin: 10px;
+}
+.services-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.locations{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.locations h1{
+    font-size: 50pt;
+    font-weight: 700;
+}
+.locations p{
+    font-size: 15pt;
+    line-height: 22px;
+    padding: 10px;
+}
+.locations .row{
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.locations-nyc{
+    width: 250px;
+    height: 370px;
+    background-image: url("/assets/nyc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+.locations-mostar{
+    width: 250px;
+    height: 370px;
+    background-image: url("/assets/mostar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+.locations-paris{
+    width: 250px;
+    height: 370px;
+    background-image: url("/assets/paris.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    transition: 0.3s;
+}
+.locations-nyc h3, .locations-mostar h3, .locations-paris h3{
+    font-size: 20pt;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+}
+.locations-paris:hover, .locations-mostar:hover, .locations-nyc:hover{
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
+    width: 270px;
+    height: 390px;
+    opacity: 0.80;
+}

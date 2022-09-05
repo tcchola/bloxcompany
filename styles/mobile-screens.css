@@ -1,0 +1,48 @@
+@media(max-width: 700px) {
+    .textBox h1{
+        font-size: 30pt;
+    }
+    .textBox p{
+        font-size: 10pt;
+    }
+    nav p{
+        display: none;
+    }
+    .navLinks ul li a{
+        font-size: 12pt;
+    }
+    .services h1{
+        font-size: 30pt;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .locations h1{
+        font-size: 30pt;
+    }
+    .locations .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer a img{
+        width: 120px;
+        height: 120px;
+        padding-top: 50px;
+        margin-right: 50px;
+    }
+    .footer p{
+        font-size: 13pt;
+    }
+    #footer-icons{
+        padding-bottom: 40px;
+    }
+    .footer svg{
+        width: 35px;
+        height: 35px;
+    }
+}
